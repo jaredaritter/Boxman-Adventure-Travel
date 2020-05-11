@@ -6,7 +6,8 @@ html, body {
 
 #container {
     margin: 20px auto;
-    width: 900px;
+    /* width: 900px; */
+    width: 100%;
 }
 
 h1 {
@@ -41,12 +42,39 @@ main {
 
 .linkImg {
     width: 150px;
-    height: auto;
+    height: 150px;
     border-radius: 50%;
     display: block;
 }
 
-img {
-    width: 600px;
-    height: auto;
+.article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* margin: 30px 0; */
+    background-color: antiquewhite;
+}
+
+.article:nth-of-type(even) {
+    flex-direction: row-reverse;
+    background-color: burlywood;
+}
+
+.articleCard {
+    width: 300px;
+    margin: 20px 10px;
+    padding: 1px 10px;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    background-color: white;
+}
+
+.articleHeader {
+    margin: 5px 3px;
+}
+
+.articleImg {
+    width: 700px;
+    /* height: auto; */
+    height: 466.66px;
+    /* box-shadow: 3px 3px 5px 6px #ccc; */
 }
