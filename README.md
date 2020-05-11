@@ -2,4 +2,5 @@
 
 ## Task list
 * crop chosen pictures
-* add  margin on top and bottom on articles
+* choose color palette
+* talk with suzie about layout and animations
