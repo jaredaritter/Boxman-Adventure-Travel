@@ -5,9 +5,10 @@ html, body {
 }
 
 #container {
-    margin: 10px auto;
+    /* margin: 10px auto; */
     /* width: 900px; */
     width: 100%;
+    background-color: #dcdcdd;
 }
 
 #banner {
@@ -74,12 +75,12 @@ main p {
     justify-content: space-between;
     padding: 40px 0;
     /* margin: 30px 0; */
-    background-color: antiquewhite;
+    background-color: #1985a1;
 }
 
 .article:nth-of-type(even) {
     flex-direction: row-reverse;
-    background-color: burlywood;
+    background-color: #c5c3c6;
 }
 
 .articleCard {
