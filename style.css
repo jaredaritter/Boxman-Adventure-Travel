@@ -6,7 +6,7 @@ html, body {
 
 #container {
     margin: 20px auto;
-    width: 800px;
+    width: 900px;
 }
 
 h1 {
@@ -23,6 +23,27 @@ h1 {
 
 main {
     margin: 0 20px;
+}
+
+#links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    width: 150px;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.linkImg {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
 }
 
 img {
