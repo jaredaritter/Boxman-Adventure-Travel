@@ -156,3 +156,7 @@ footer {
     font-weight: bold;
     text-decoration: underline;
 }
+
+.show {
+    display: flex;
+}
