@@ -114,3 +114,24 @@ h1 {
     height: 466.66px;
     /* box-shadow: 3px 3px 5px 6px #ccc; */
 }
+
+#survey {
+    min-height: 400px;
+}
+
+footer {
+    /* min-height: 200px; */
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#contact {
+    /* background-color: yellowgreen; */
+    line-height: 0.5;
+    margin: 0 15px 5px 0;
+}
+
+#contactHeader {
+    font-weight: bold;
+    text-decoration: underline;
+}
