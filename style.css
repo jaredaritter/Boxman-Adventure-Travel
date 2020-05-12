@@ -8,7 +8,7 @@ html, body {
     /* margin: 10px auto; */
     /* width: 900px; */
     width: 100%;
-    background-color: #fbfbf2;
+    background-color: grey;
 }
 
 #banner {
@@ -86,17 +86,22 @@ h1 {
 }
 
 .gridBox {
-    height: 400px;
+    height: 550px;
     width: 400px;
     margin: 10px;
-    background-color: #30CBCB;
+    background-color: white;
     border-radius: 10px;
 }
 
 .gridImg {
     height: 400px;
     width: 400px;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.gridCard {
+    background-color: grey;
 }
 
 .article {
