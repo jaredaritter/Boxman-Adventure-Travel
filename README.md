@@ -3,9 +3,11 @@
 * Skills application of prior learning in real world example
 
 ## Task list
-* crop chosen pictures
-* choose color palette
-* talk with suzie about layout and animations
-* Tours sections with boxes with text below image
-    * Animation on mouseover
-* Our services
+* Crop chosen pictures
+* Choose color palette
+* Talk with suzie about layout and animations
+* Increase top and bottom margins on article sections
+* Flesh out survey section
+    * add animation or page change on submit? 
+    * may not work with submit button and may need to chage to event listener
+    * fireworks page and/or video?
