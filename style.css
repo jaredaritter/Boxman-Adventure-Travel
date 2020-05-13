@@ -92,6 +92,13 @@ h1 {
     background-color: white;
     border-radius: 10px;
     font-size: 0;
+    border: 1px solid grey;
+    transition: opacity 0.3s, box-shadow 0.3s;
+}
+
+.gridBox:hover {
+    opacity: 0.9;
+    box-shadow: 0px 3px 6px 3px darkgray;
 }
 
 .gridImg {
