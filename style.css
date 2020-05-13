@@ -11,6 +11,8 @@ html, body {
     background-color: grey;
 }
 
+/* -------------------------------------------------------------------------------------------------------- */
+
 #banner {
     /* border: 1px solid cyan; */
     display: flex;
@@ -29,6 +31,8 @@ h1 {
     height: auto;
 }
 
+/* --------------------------------------------------------------------------------------------------------- */
+
 #splash {
     height: 800px;
     background-image: url('https://lp-cms-production.imgix.net/2019-06/12dec8938220093eb7f1fdb8a9ce40b8-the-rocky-mountains.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4');
@@ -38,6 +42,8 @@ h1 {
 
 }
 
+/* --------------------------------------------------------------------------------------------------------- */
+
 #greeting {
     margin: 40px 20px;
 }
@@ -46,6 +52,8 @@ h1 {
     font-size: 20px;
     text-align: center;
 }
+
+/* ------------------------------------------------------------------------------------------------------------- */
 
 #links {
     /* display: flex; */
@@ -79,6 +87,8 @@ h1 {
     text-decoration: none;
 }
 
+/* ------------------------------------------------------------------------------------------------------------- */
+
 #grid {
     display: flex;
     flex-flow: row wrap;
@@ -88,7 +98,7 @@ h1 {
 .gridBox {
     height: 500px;
     width: 350px;
-    margin: 10px;
+    margin: 20px 10px;
     background-color: white;
     border-radius: 10px;
     font-size: 0;
@@ -110,7 +120,7 @@ h1 {
 
 .gridCard {
     height: 150px;
-    background-color: lightblue;
+    background-color: white;
     font-size: 20px;
     padding: 0 12px;
     line-height: 0.8;
@@ -125,12 +135,26 @@ h1 {
     font-weight: bold;
 }
 
+/* --------------------------------------------------------------------------------------------------------------- */
 #services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightcyan;
+    height: 600px;
+}
+
+.serviceGroup {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    height: 600px;
+}
+
+.serviceGroupHeader {
+    /* background-color: lightpink; */
+    text-align: center;
+    font-size: 2em;
 }
 
 .serviceCard {
@@ -141,7 +165,19 @@ h1 {
     border-radius: 10px;
     background-color: antiquewhite;
     border: 1px solid black;
+    transition: box-shadow 0.3s;
 }
+
+.serviceCard:hover {
+    box-shadow: 0px 2px 4px 5px #aaa;
+}
+
+.serviceHeader {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
 
 .article {
     display: flex;
@@ -180,9 +216,13 @@ h1 {
     /* box-shadow: 3px 3px 5px 6px #ccc; */
 }
 
+/* ---------------------------------------------------------------------------------------------------------- */
+
 #survey {
     min-height: 400px;
 }
+
+/* ------------------------------------------------------------------------------------------------------------ */
 
 footer {
     /* min-height: 200px; */
@@ -199,8 +239,4 @@ footer {
 #contactHeader {
     font-weight: bold;
     text-decoration: underline;
-}
-
-.show {
-    display: flex;
 }
