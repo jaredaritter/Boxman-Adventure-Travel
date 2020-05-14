@@ -116,7 +116,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     /* background-color: lightcyan; */
-    height: 600px;
+    min-height: 600px;
 }
 
 .serviceGroup {
