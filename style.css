@@ -182,6 +182,8 @@ h1 {
 
 .articleHeader {
     margin: 5px 3px;
+    text-align: center;
+    font-size: 1.8em;
 }
 
 .articleImg {
