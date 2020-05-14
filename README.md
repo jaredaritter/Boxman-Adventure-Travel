@@ -8,7 +8,6 @@
     * Jared and Suzie will find additional pictures
 * Choose placement of new pictures
 * Choose color palette
-* Talk with suzie about layout and animations
 * Add header to grid section
 * Move header from article card to top of each article as header
     * No replacement header in card, just content

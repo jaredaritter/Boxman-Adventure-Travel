@@ -8,7 +8,8 @@ html, body {
     /* margin: 10px auto; */
     /* width: 900px; */
     width: 100%;
-    background-color: grey;
+    background: rgb(131,58,180);
+    background: linear-gradient(0deg, rgba(131,58,180,0.50) 0%, rgba(253,29,29,0.35) 50%, rgba(252,176,69,0.35) 100%);
 }
 
 /* -------------------------------------------------------------------------------------------------------- */
@@ -17,6 +18,8 @@ html, body {
     /* border: 1px solid cyan; */
     display: flex;
     justify-content: center;
+    /* background: rgb(131,58,180);
+    background: linear-gradient(-80deg, rgba(131,58,180,0.35) 0%, rgba(253,29,29,0.35) 50%, rgba(252,176,69,0.35) 100%); */
 }
 
 h1 {
@@ -45,7 +48,7 @@ h1 {
 /* --------------------------------------------------------------------------------------------------------- */
 
 #greeting {
-    margin: 40px 20px;
+    margin: 50px 20px;
 }
 
 #greeting p {
@@ -55,39 +58,11 @@ h1 {
 
 /* ------------------------------------------------------------------------------------------------------------- */
 
-#links {
-    /* display: flex; */
-    display: none;
-    justify-content: center;
-    margin: 40px 20px;
-    /* border: 3px solid green; */
-}
-
-.link {
-    width: 225px;
-    height: 250px;
-    /* border: 1px solid green; */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+.gridHeader {
     text-align: center;
-    /* border: 1px solid purple; */
+    font-size: 2em;
+    margin-bottom: 15px;
 }
-
-.linkImg {
-    width: 175px;
-    height: 175px;
-    border-radius: 50%;
-    display: block;
-}
-
-.link a {
-    font-size: 20px;
-    text-decoration: none;
-}
-
-/* ------------------------------------------------------------------------------------------------------------- */
 
 #grid {
     display: flex;
@@ -140,7 +115,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: lightcyan;
+    /* background-color: lightcyan; */
     height: 600px;
 }
 
@@ -185,12 +160,12 @@ h1 {
     justify-content: space-between;
     padding: 40px 0;
     /* margin: 30px 0; */
-    background-color: #e5e6e4;
+    /* background-color: #e5e6e4; */
 }
 
 .article:nth-of-type(even) {
     flex-direction: row-reverse;
-    background-color: #a6a2a2;
+    /* background-color: #a6a2a2; */
 }
 
 .article:nth-of-type(even) .articleCard {
