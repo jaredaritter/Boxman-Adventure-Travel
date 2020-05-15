@@ -5,7 +5,7 @@
     * I am quickly seeing the value of templates, libraries, frameworks, and databases when refactoring this project. Even making use of multiline editing tools, having to edit multiple lines of hard coded HTML is frustratingly slow and tedious. This is a valuable lesson in why DRYing tools are used. This is most definitely the hard way.
 
 ## Task list
-* Add compass logo to footer with address
+* Find better compass logo
 * Crop chosen pictures
     * Jared and Suzie will find additional pictures
 * Choose placement of new pictures
@@ -15,5 +15,5 @@
 * Increase size of article cards
     * Begin working on text content for article cards
 * Subtle gradient background colors (check with Suzie)
-* Survey slide out animation (currently have fading in as there was no easy implementation for animation that I could ensure was working)
-* Convert tours section to grid for improved spacing
+* Survey replace header content with congratulations message
+* Convert tours and services sections to grid for improved spacing
