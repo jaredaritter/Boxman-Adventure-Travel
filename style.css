@@ -202,6 +202,7 @@ h1 {
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: auto 1fr;
+    margin-bottom: 50px;
 }
 
 #survey h2 {
@@ -223,6 +224,7 @@ h1 {
     font-weight: bold;
     font-size: 30px;
     margin: 5px;
+    padding-top: 30px;
 }
 
 /* SOURCED FROM ANDY BELL'S EXAMPLE */
@@ -274,7 +276,24 @@ button:active {
 footer {
     /* min-height: 200px; */
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+#trademark {
+    display: flex;
+    align-items: center;
+}
+
+#trademark img {
+    width: 50px;
+    height: auto;
+}
+
+#trademark p {
+    font-size: 1.2em;
+    margin-left: 5px;
 }
 
 #contact {

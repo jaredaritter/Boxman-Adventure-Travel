@@ -6,8 +6,11 @@ buttons.forEach(button => button.addEventListener('click', showSign));
 
 function showSign(e) {
     const p = document.createElement('p');
-    p.textContent = `Congratulations! ${e.target.textContent} is an amazing choice! You're going to love it!`;
-    while (sign.firstChild) {
+    p.textContent = `You're going to love your ${e.target.value} adventure!`;
+    // while (sign.firstChild) {
+    //     sign.removeChild(sign.lastChild);
+    // }
+    if (sign.children[1]){
         sign.removeChild(sign.lastChild);
     }
     sign.appendChild(p);
