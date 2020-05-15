@@ -14,6 +14,6 @@
     * Have couple smaller pictures
 * Increase size of article cards
     * Begin working on text content for article cards
-* Pretty HR for section and article seperation
-* Subtle gradient background colors (test)
-* Survey TBD (no fanfare videos)
+* Subtle gradient background colors (check with Suzie)
+* Survey slide out animation
+* Convert tours section to grid for improved spacing
