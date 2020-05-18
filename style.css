@@ -203,6 +203,10 @@ article img.tall {
     max-height: 400px;
 }
 
+.articleImg {
+    border: none;
+}
+
 /* ---------------------------------------------------------------------------------------------------------- */
 
 #survey {
@@ -233,6 +237,10 @@ article img.tall {
     font-size: 30px;
     margin: 5px;
     padding-top: 30px;
+}
+
+#surveyImg {
+    justify-items: center;
 }
 
 /* SOURCED FROM ANDY BELL'S EXAMPLE */
@@ -277,6 +285,11 @@ button:active {
 }
 .fadein {
     opacity: 1;
+}
+
+.window {
+    width: 400px;
+    height: auto;
 }
 
 /* ------------------------------------------------------------------------------------------------------------ */
