@@ -7,4 +7,3 @@
 ## Task list
 * Crop grid pictures
 * Add image to left side of buttons on survey choice (use pics from grid)
-* Remove hover effect from service cards
