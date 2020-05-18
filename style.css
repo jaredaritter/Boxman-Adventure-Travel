@@ -5,25 +5,18 @@ html, body {
 }
 
 #container {
-    /* margin: 10px auto; */
-    /* width: 900px; */
     width: 100%;
-    /* background: rgb(131,58,180);
-    background: linear-gradient(0deg, rgba(131,58,180,0.50) 0%, rgba(253,29,29,0.35) 50%, rgba(252,176,69,0.35) 100%); */
     background: #2980B9;  /* fallback for old browsers */
-background: -webkit-linear-gradient(90deg #FFFFFF, #6DD5FA);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(90deg, #FFFFFF, rgb(144, 224, 253)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(90deg #FFFFFF, #6DD5FA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(90deg, #FFFFFF, rgb(144, 224, 253)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 /* -------------------------------------------------------------------------------------------------------- */
 
 #banner {
-    /* border: 1px solid cyan; */
     display: flex;
     justify-content: center;
-    /* background: rgb(131,58,180);
-    background: linear-gradient(-80deg, rgba(131,58,180,0.35) 0%, rgba(253,29,29,0.35) 50%, rgba(252,176,69,0.35) 100%); */
 }
 
 h1 {
@@ -45,8 +38,6 @@ h1 {
     background-image: url('https://lp-cms-production.imgix.net/2019-06/12dec8938220093eb7f1fdb8a9ce40b8-the-rocky-mountains.jpg?fit=crop&q=40&sharp=10&vib=20&auto=format&ixlib=react-8.6.4');
     background-repeat: no-repeat;
     background-size: 100%;
-    /* background-image: url('https://www.roughguides.com/wp-content/uploads/2016/02/matterhorn-shutterstock_1118486243.jpg'); */
-
 }
 
 /* --------------------------------------------------------------------------------------------------------- */
@@ -131,7 +122,6 @@ img.question {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background-color: lightcyan; */
     min-height: 500px;
 }
 
@@ -143,7 +133,6 @@ img.question {
 }
 
 .serviceGroupHeader {
-    /* background-color: lightpink; */
     text-align: center;
     font-size: 2em;
 }
@@ -180,7 +169,6 @@ img.question {
 
 .article:nth-of-type(even) {
     flex-direction: row-reverse;
-    /* background-color: #a6a2a2; */
 }
 
 .article:nth-of-type(even) .articleCard {
@@ -298,7 +286,6 @@ button:active {
 /* ------------------------------------------------------------------------------------------------------------ */
 
 footer {
-    /* min-height: 200px; */
     display: flex;
     flex-direction: row;
     margin-top: 30px;
@@ -321,7 +308,6 @@ footer {
 }
 
 #contact {
-    /* background-color: yellowgreen; */
     line-height: 0.5;
     margin: 0 15px 5px 0;
 }
