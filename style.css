@@ -86,7 +86,6 @@ div.first {
 .gridBox {
     height: 500px;
     width: 350px;
-    /* margin: 20px 10px; */
     background-color: white;
     border-radius: 10px;
     font-size: 0;
@@ -189,7 +188,7 @@ img.question {
 }
 
 .articleCard {
-    width: 300px;
+    width: 400px;
     margin: 20px 10px;
     padding: 1px 10px;
     box-shadow: 3px 3px 5px 6px #ccc;
@@ -202,11 +201,16 @@ img.question {
     font-size: 1.8em;
 }
 
-.articleImg {
-    width: 700px;
-    /* height: auto; */
-    height: 466.66px;
-    /* box-shadow: 3px 3px 5px 6px #ccc; */
+article .pictureBox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+article img {
+    max-height: 250px;
+    width: auto;
+    margin: 5px;
 }
 
 /* ---------------------------------------------------------------------------------------------------------- */
