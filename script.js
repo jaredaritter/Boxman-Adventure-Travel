@@ -24,13 +24,13 @@ function show(e) {
     } else if (e.target.value === 'fly fishing') {
         img.setAttribute('src', './images/flyfishing-rod.jpg');
         img.setAttribute('alt', 'flyfishing rod');
-    } else if (e.target.value === 'Israel') {
+    } else if (e.target.value === 'Israeli') {
         img.setAttribute('src', './images/israel-flag.webp');
         img.setAttribute('alt', 'israel flag');
     } else if (e.target.value === 'nautical') {
         img.setAttribute('src', './images/nautical-onboard.jpg');
         img.setAttribute('alt', '');
-    } else if (e.target.value === 'feast') {
+    } else if (e.target.value === 'feasting') {
         img.setAttribute('src', './images/feast-hall.png');
         img.setAttribute('alt', 'feast hall');
     } else if (e.target.value === 'other') {
